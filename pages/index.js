@@ -1,6 +1,6 @@
 import { Container, Table, TableCell, TableHead, TableRow, TableBody } from "@mui/material"
 import Link from "next/link";
-import Button from "@mui/material";
+import Button from "@mui/material/Button";
 
 function createData(name, github, link){
   return {name, github, link};
